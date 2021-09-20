@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Battle of Bunker Hill",
+"dataUrl": "battleofbunkerhill.data.unityweb",
+"asmCodeUrl": "battleofbunkerhill.asm.code.unityweb",
+"asmMemoryUrl": "battleofbunkerhill.asm.memory.unityweb",
+"asmFrameworkUrl": "battleofbunkerhill.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

@@ -6,7 +6,6 @@
 body {
     background-color: #4a4949;
 }
-
 header {
     background-color: #333333;
     width: 100%;
@@ -15,12 +14,15 @@ header {
 div {
     margin: 0px 15%;
 }
-p {
+p, a {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     padding-top: 10px;
 }
-header p {
+a {
+    color: inherit;
+}
+header p, header a {
     color: dimgray;
     text-align: center;
 }
@@ -28,7 +30,6 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     padding-top: 35px;
-    /*text-align: center;*/
 }
 .date {
     padding: 0;

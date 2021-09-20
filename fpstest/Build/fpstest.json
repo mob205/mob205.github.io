@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "FPS Test",
+"dataUrl": "fpstest.data.unityweb",
+"asmCodeUrl": "fpstest.asm.code.unityweb",
+"asmMemoryUrl": "fpstest.asm.memory.unityweb",
+"asmFrameworkUrl": "fpstest.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

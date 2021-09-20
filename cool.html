@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Test Site</title>
+        <link rel="stylesheet" type="text/css" href="aboutstyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script>
+            function myFunction(imgs) {
+              // Get the expanded image
+              var expandImg = document.getElementById("expandedImg");
+              // Get the image text
+              var imgText = document.getElementById("imgtext");
+              // Use the same src in the expanded image as the image being clicked on from the grid
+              expandImg.src = imgs.src;
+              // Use the value of the alt attribute of the clickable image as text inside the expanded image
+              imgText.innerHTML = imgs.alt;
+              // Show the container element (hidden with CSS)
+              expandImg.parentElement.style.display = "block";
+            }
+        </script>
+    </head>
+    <header>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Button</li>
+                <li>Another Button</li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="image">
+            <div class="container">
+                <h1>Cool Website</h1>
+                <a href="index.html" class="link">Big Button</a>
+            </div>
+        </div>
+        
+        <!-- The grid: four columns -->
+        <div class="row">
+          <div class="column">
+            <img src="kitten.jpg" alt="Nature" onclick="myFunction(this);" style="width: 100%">
+          </div>
+          <div class="column">
+            <img src="nature.png" alt="Couch" onclick="myFunction(this);" style="width: 100%">
+          </div>
+        </div>
+
+        <!-- The expanding image container -->
+        <div class="enlargedContainer">
+          <!-- Close the image -->
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+          <!-- Expanded image -->
+          <img id="expandedImg" style="width:75%;">
+
+          <!-- Image text -->
+          <div id="imgtext"></div>
+        </div>
+        <hr class = "hr">
+        <div class="content">
+            <div class="subimage"><img src="nature.png"><p>This is some nice nature<p></div>
+            <div class="subimage"><img src="nature.png"><p>This is also nice nature</p></div>
+        </div>
+    </body>
+</html>

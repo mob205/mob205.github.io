@@ -3,115 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #4a4949;
+}
+
 header {
     background-color: #333333;
-    position: fixed;
     width: 100%;
     z-index: 1;
 }
-nav {
-    padding: 20px;
-}
-nav li {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    display: inline-block;
-    padding: 0 20px;
-}
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 100px;
-    padding-top: 80px;
-    margin-bottom: 80px;
+div {
+    margin: 0px 15%;
 }
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+    padding-top: 10px;
 }
-.image {
-    background-image: url("Scenery_USA_Lake_472431.jpg");
-    height: 1500px;
-    background-size: cover;
-}
-.container {
-    margin: 0 auto;
+header p {
+    color: dimgray;
     text-align: center;
 }
-.link {
-    text-decoration: none;
-    color: white;
+h1 {
     font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    background-color: dimgray;
-    padding: 30px 60px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 40px;
+    padding-top: 35px;
+    /*text-align: center;*/
+}
+.date {
+    padding: 0;
+    font-size: 15px;
 }
 
-.hr {
-    margin: 40px;
-}
-.content {
-    margin: 40px;
-    height: 250px;
-    text-align: center;
-}
-.subimage {
-    display: inline-block;
-    width: 275px;
-    height: 183px;
-    margin-right: 40px;
-}
-.subimage p{
-    position: relative;
-    text-align: center;
-}
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.enlargedContainer {
-  position: relative;
-  display: none;
- text-align: center;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: black;
-  font-size: 35px;
-  cursor: pointer;
-}

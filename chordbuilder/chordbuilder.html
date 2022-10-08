@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chords by Scale Degree</title>
+        <link rel="stylesheet" href="../aboutstyle.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="chordpicker.js"></script>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="../index.html">Games</a></li>
+                <li><a href="chordbuilder.html">Chordbuilder</a></li>
+            </ul>
+        </header>
+        <div>
+            <h1 id="header">Chords by Major Scale Degree</h1>
+            <p>Builds chords based on each scale degree of a given major key.</p>
+            <p>Insert flats with a lowercase B (b) and sharps with a hashtag (#)</p>
+            <label for="key">Key: </label><br>
+            <input type="text" id="keyInput" name="keyInput" maxlength="2" onchange="onType()">
+            <table>
+                <thead>
+                    <tr>
+                        <th id="leftmost">Degrees:</th>
+                        <th>I</th>
+                        <th>II</th>
+                        <th>III</th>
+                        <th>IV</th>
+                        <th>V</th>
+                        <th>VI</th>
+                        <th>VII</th>
+                    </tr>
+                </thead>
+                <tbody id="output">
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

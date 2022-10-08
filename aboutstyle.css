@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #666666;
+    background-color: #edf2fb;
 }
 header {
-    background-color: #333333;
+    background-color: #d7e3fc;
     width: 100%;
     z-index: 1;
 }
 div {
-    margin: 0px 15%;
+    margin: 0px 5%;
 }
 p, a {
     font-family: 'Raleway', sans-serif;
@@ -23,8 +23,15 @@ a {
     color: inherit;
 }
 header p, header a {
-    color: dimgray;
+    padding: 15px;
+    color: black;
     text-align: center;
+    text-decoration: none;
+}
+ul li {
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
 }
 h1 {
     font-family: 'Raleway', sans-serif;
